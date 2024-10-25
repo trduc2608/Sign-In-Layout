@@ -58,7 +58,10 @@
                 <label for="email">Địa chỉ email:<span>*</span></label>
                 <input type="email" id="email" name="email" required />
                 <label for="password">Mật khẩu:<span>*</span></label>
-                <input type="password" id="password" name="password" required />
+                <div class="password-wrapper">
+                    <input type="password" id="password" name="password" required />
+                    <i class="toggle-password" onclick="togglePasswordVisibility()"><img src="./images/pass-toggle.png" alt=""></i>
+                </div>
             </form>
             <div class="form-footer">
                 <div class="save-info">
@@ -81,7 +84,7 @@
             <div class="footer-info">
                 <div class="left-info">
                     <div class="info">
-                        <img src=".images/address-icon.png" alt="Address Icon" />
+                        <img src="./images/address-icon.png" alt="Address Icon" />
                         <a href="#">79 Hồ Tùng Mậu</a>
                     </div>
                     <div class="info">

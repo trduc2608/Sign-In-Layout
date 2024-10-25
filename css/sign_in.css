@@ -145,6 +145,30 @@ body {
     color: red;
 }
 
+.password-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-wrapper input[type="password"] {
+    width: calc(100% - 50px); 
+}
+
+.toggle-password {
+    width: 50px;
+    height: 26px;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+    color: #cccccc;
+    font-size: 25px;
+    user-select: none;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+
 .main-container form label {
     display: block;
     text-align: left;
