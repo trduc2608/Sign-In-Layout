@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/sign_in.css" />
+    <!-- Google Font: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+    <title>Milkawa Sign In</title>
+</head>
+
+<body>
+    <!-- Top Navigation -->
+    <nav class="top-nav">
+        <div class="logo">
+            <img src="/images/logo trắng.png" alt="Milkawa logo" class="milklogo" />
+            <!-- Correct path to logo -->
+        </div>
+        <div class="top-nav-info">
+            <div>
+                <ul>
+                    <li><a href="#">Về Milkawa</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Khuyến mãi</a></li>
+                    <li><a href="#">Tìm kiếm</a></li>
+                </ul>
+            </div>
+            <div class="shopxava">
+                <a href="#">
+                    <img src="/images/shop-icon.png" alt="icon-shop" class="icon-shop" />
+                </a>
+                <a href="#">
+                    <img src="/images/avatar-icon.png" alt="icon-ava" class="icon-ava" />
+                </a>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="page-container">
+        <nav class="top-container">
+            <ul class="container">
+                <li><a href="#" class="active">Đăng nhập</a></li>
+                <li><span>|</span></li>
+                <li><a href="#">Đăng ký</a></li>
+                <li><span>|</span></li>
+                <li><a href="#">Tài khoản</a></li>
+                <li><span>|</span></li>
+                <li>
+                    <a href="#"><img src="/images/bank-icon.png" alt="Bank Icon" /></a>
+                </li>
+            </ul>
+        </nav>
+        <div class="main-container">
+            <h2>Đăng Nhập</h2>
+            <form action="#" method="post">
+                <label for="email">Địa chỉ email:<span>*</span></label>
+                <input type="email" id="email" name="email" required />
+                <label for="password">Mật khẩu:<span>*</span></label>
+                <input type="password" id="password" name="password" required />
+            </form>
+            <div class="form-footer">
+                <div class="save-info">
+                    <input type="checkbox" id="remember" name="remember" />
+                    <label for="remember">Lưu thông tin đăng nhập</label>
+                </div>
+                <a href="#">Quên mật khẩu?</a>
+            </div>
+            <button type="submit" class="btn-login">Đăng nhập</button>
+        </div>
+    </div>
+
+
+    <!-- Bottom Navigation -->
+    <footer class="bottom-nav">
+        <div class="footer-container">
+            <div class="black-logo">
+                <img src="/images/logo nền trắng.png" alt="Milkawa Logo Black">
+            </div>
+            <div class="footer-info">
+                <div class="left-info">
+                    <div class="info">
+                        <img src="images/address-icon.png" alt="Address Icon" />
+                        <a href="#">79 Hồ Tùng Mậu</a>
+                    </div>
+                    <div class="info">
+                        <img src="/images/phone-icon.png" alt="Phone Icon" />
+                        <a href="#">123-456-7890</a>
+                    </div>
+                </div>
+                <div class="right-info">
+                    <div class="info">
+                        <img src="images/mail-icon.png" alt="Email Contact Icon" />
+                        <a href="#" class="email-info">milkawa@gmail.com</a>
+                    </div>
+                    <form action="#" method="post">
+                        <input type="email" placeholder="Enter your email" required />
+                        <button type="submit"><img src="images/arrow.png" alt="arrow icon"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <p>&copy; Milkawa 2024. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
